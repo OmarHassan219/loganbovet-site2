@@ -1,0 +1,19 @@
+{
+  "header": {
+    "Accueil": "Home",
+    "A propos": "About",
+    "Compétences": "Skills",
+    "Clients": "Clients",
+    "Blog": "Blog",
+    "Contacter": "Contact Me",
+    "Consulter CV": "View Resume",
+    "locale": "{locale, select, fr {Français} en {English} de {Deutsch} other {Unbekannt}}"
+  },
+  "footer": {
+    "title": "Bienvenue",
+    "text": "Ceci est un exemple d'application de la traduction sans écrire les mots deux fois. Vous pouvez choisir la section hero ou le footer comme exemple et utiliser simplement 'title', 'text', 'placeholderText', ou toute autre clé.",
+    "copyRight": "© {currentDate, date, ::yyyy} Logan BOVET. Alle Rechte vorbehalten."
+  
+  }
+}
+    

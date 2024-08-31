@@ -1,0 +1,84 @@
+/**
+* Logan BOVET CV
+* Version: 1.0.1
+* Author: Logan BOVET
+* Author URL: https://www.logan-bovet.com/
+* Copyright © Logan BOVET. Tous droits réservés.
+**/
+@media (min-width:1108px) and (max-width:1167px) {
+.locale-switcher-container{
+    margin-left: 20px !important;
+}
+}
+@media (max-width:1108px) {
+    .locale-switcher-container{
+        margin: 0 20px 0 0 !important;
+        display: inline-block !important;
+    }
+  }
+.locale-options-container{
+    width: 130px;
+    position: absolute;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.locale-option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 0;
+    text-align: left;
+    font-size: 13px;
+}
+
+.locale-option.active{
+    color: #fff !important;
+    background-color: #2793cc;
+}
+.current-locale-container{
+    padding-top: 10px;
+    margin-right: 0;
+    cursor: pointer;
+    position: relative;
+}
+.current-locale-container:hover .current-locale{
+    color: #2793cc;
+    transition: color 0.15s ease-in-out;
+}
+.current-locale{
+    margin: 0;
+    font-size: 13px;
+}
+.locale-option{
+    margin: 0;
+
+}
+.locale-option:hover{
+background-color: #2793cc ;
+color: white;
+
+}
+
+/* @media (max-width: 1108px) {
+    .locale-options-container{
+        width: fit-content;
+        text-align: center;
+        border: 1px solid black;
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+    }
+  
+    
+  } */
