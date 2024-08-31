@@ -1,4 +1,8 @@
+import { useTranslations } from "next-intl";
+
 const Footer = () => {
+  const t = useTranslations(`footer`)
+  const currentDate = new Date()
   return (
     <footer>
       <div className="soc">
@@ -7,7 +11,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="copy">
-        © {new Date().getFullYear()} Logan BOVET. Tous droits réservés.
+      {t('copyRight', { currentDate })}
       </div>
       <div className="clr" />
     </footer>

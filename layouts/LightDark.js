@@ -9,8 +9,8 @@ export default function ThemeSwitch({themeState, setThemeState}) {
 
   // light/dark themes related styles css files
   const themes = {
-    dark: `../css/dark-theme.css`,
-    light: `../css/light-theme.css`,
+    dark: `/css/dark-theme.css`,
+    light: `/css/light-theme.css`,
   };
 
   /**

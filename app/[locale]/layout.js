@@ -11,6 +11,7 @@ import "./globals.css";
 import State from "/context/context";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, unstable_setRequestLocale } from "next-intl/server";
+export const dynamic = 'force-dynamic'
 
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
